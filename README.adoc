@@ -1,0 +1,2 @@
+= SYNOPSIS
+Exercises etc. for the AngularJS course on Coursera.

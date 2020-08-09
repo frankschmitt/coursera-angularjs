@@ -1,2 +1,7 @@
 = SYNOPSIS
+
 Exercises etc. for the AngularJS course on Coursera.
+
+= RUNNING IT
+
+browser-sync start --server --directory --files "**/*"

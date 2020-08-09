@@ -1,9 +1,11 @@
 (function() {
   'use strict';
 
-  var x = "hello";
-
-  angular.module('myFirstApp', [])
-  .controller('myFirstController', function () {
+  angular.module("myFirstApp", [])
+  .controller("MyFirstController", function ($scope) {
+    $scope.name = "Frank";
+    $scope.sayHello = function() {
+      return "Hello Coursera!";
+    };
   });
 })();
